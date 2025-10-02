@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ stylecss }}</title>
+    <!-- <link rel="stylesheet" href="{% static 'blog/css/style_1.css' %}"> -->
+    <link rel="stylesheet" href="./css/style_1.css">
+    <link rel="stylesheet" href="./css/style_2.css">
+    <style>
+        @import url("{% static 'blog/css/style_2.css' %}");
+    </style>
+
+</head>
+
+<body>
+    <p class="p-1">Django(Джанго) - свободный фреймворк для веб-приложений на языке Python, использующий шаблон
+        проектирования
+        MVC. Документация на русском языке.</p>
+    <span class="span-1">Python - это простой в освоении мощный язык программирования.</span>
+
+    <br>
+    <br>
+    <hr>
+
+    <p class="p-41">SQL Alchemy - это набор инструментов Python SQL и Object Relational Mapper, который даёт разработчикам приложений
+        всю мощь и гибкость SQL</p>
+    <p class="p-42">Синий 'span'</p>
+    <p class="p-43">Зелёный 'span'</p>
+    
+    <br>
+    <br>
+    <hr>
+    
+    <p class="p_1">
+        <span id="p_2">
+            Первое предложение абзаца.</span>
+            Второе более длинное предложение абзаца.
+            Третье и последнее предложение абзаца.
+    </p>
+
+    <p class="p_3">
+        <span id="p_4">
+            Первое предложение абзаца.</span>
+            Второе более длинное предложение абзаца.
+            Третье и последнее предложение абзаца.
+    </p>
+
+    <br>
+    <br>
+    <hr>
+
+     <p class="p_6">
+        <span id="p_6">
+            Первое предложение абзаца.</span>
+            Второе более длинное предложение абзаца.
+            Третье и последнее предложение абзаца.
+    </p>
+
+    <p class="p_62">
+        <span id="p_62">
+            Первое предложение абзаца.</span>
+            Второе более длинное предложение абзаца.
+            Третье и последнее предложение абзаца.
+    </p>
+
+    <br>
+    <br>
+    <hr>
+
+    <ul class="list_1">
+        <li>
+            Маркеры размещаем вне списка.
+        </li>
+        <li>
+            Используем вид маркера decimal.
+        </li>
+    </ul>
+
+    <ol class="list_2">
+        <li>
+            Маркеры размещаем вне списка.
+        </li>
+        <li>
+            Используем вид маркера square.
+        </li>
+    </ol>
+
+    <br>
+    <br>
+    <hr>
+
+    <table class="table_1" border="1">
+        <caption>Таблица №1</caption>
+        <tr>
+            <td>Ячейка 1.1</td><td>Ячейка 1.2</td>
+        </tr>
+        <tr>
+            <td>Ячейка 2.1</td><td>Ячейка 2.2</td>
+        </tr>
+    </table> <br>
+
+    <table class="table_2" border="1">
+        <caption>Таблица №2</caption>
+        <tr>
+            <td>Ячейка 1.1</td><td>Ячейка 1.2</td>
+        </tr>
+        <tr>
+            <td></td><td>Ячейка 2.2</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <hr>
+
+    <p class="p_9">
+        Ширина абзаца равна 400рх, высота &ndash; 10%
+        от высоты области просмотра окна браузера.
+    </p>
+
+    <p class="p_92">
+        Ширина абзаца будет 400рх, т.к width меньше min-width,
+        а высота &ndash; 100рх, т.к height превышает max-height.
+    </p>
+
+    <br>
+    <br>
+    <hr>
+
+    <p class="p_10">
+        Ширина абзаца равна 400рх, высота &ndash; 10%
+        от высоты области просмотра окна браузера.
+    </p>
+
+    <p class="p_102">
+        Ширина абзаца будет 400рх, т.к width меньше min-width,
+        а высота &ndash; 100рх, т.к height превышает max-height.
+    </p>
+</body>
+
+</html>
