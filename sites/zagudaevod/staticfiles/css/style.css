@@ -1,0 +1,153 @@
+.task1::first-letter {
+    color: red;
+    font-size: 22px;
+}
+
+.task2::first-line {
+    color: red;
+}
+
+.task3::selection {
+    background-color: green;
+    color: red;
+}
+
+
+
+#input1 {
+    width: 250px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+#input1::placeholder {
+    color: green;
+}
+
+#input2::placeholder {
+    color: white;
+}
+
+#input2 {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: green;
+}
+
+#input2:focus {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+} 
+
+.task5 {
+    display: flex;
+}
+
+.task52 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text51 {
+    width: 200px;
+    height: 30px;
+}
+
+.text52 {
+    width: 200px;
+    height: 30px;
+}
+
+.text53 {
+    width: 200px;
+    height: 30px;
+}
+
+.text51:focus {
+    color: green;
+}
+
+.text52:focus {
+    outline: none;
+    border:4px solid orange;
+    color: orange;
+    border-radius: 3px;
+}
+
+.text53:focus {
+    width: 300px;
+}
+
+
+.task6::before {
+    content: 'Начало: ';
+}
+
+.task6::after {
+    content: ' :Конец!';
+}
+
+.task7::before {
+    content: 'Начало: ';
+    color: red;
+}
+
+.task7::after {
+    content: ' :Конец!';
+    color: green;
+}
+
+.task8{
+    counter-increment: paragraph;
+}
+
+.task8::before{
+    content: "Абзац - " counter(paragraph)". ";
+}
+
+
+.n9>p{
+    counter-increment: paragraph;
+}
+
+.n9>p::before{
+    content: "Абзац - " counter(paragraph) ". ";
+}
+.n9>p:nth-of-type(5){
+    counter-reset: paragraph;
+}
+
+.n9>p{
+    counter-increment: paragraph;
+}
+.n9>p:nth-of-type(5){
+    color: red;
+    font-weight: bold;
+}
+
+.n9>p::before{
+    content: "Абзац - " counter(paragraph) ". ";
+    color: green;
+}
+.n9>p:nth-of-type(5){
+    counter-reset: paragraph;
+}
+
+
+
+.n10>ul:first-child>li:nth-child(odd) {
+    color: red;
+}
+.n10>ul:first-child>li:nth-child(even) {
+    color: yellow;
+}
+.n10>ul:last-child>li:nth-child(odd) {
+    color: blue;
+}
+.n10>ul:last-child>li:nth-child(even) {
+    color: green;
+}
+
