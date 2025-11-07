@@ -1,0 +1,162 @@
+.n1, .n2, .n3, .n4 {
+    border: 2px dashed rgb(133, 133, 133);
+    padding: 10px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.n5, .n6, .n7, .n8 {
+    border: 2px dashed rgb(133, 133, 133);
+    padding: 10px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    margin-bottom: 20px; 
+}
+
+.post li {
+    padding: 5px;
+    background-color: rgb(186, 250, 229);
+    border: 1px solid rgb(85, 155, 85);
+}
+
+footer .legal-links a{
+    color: red;
+    display: block;
+    text-decoration: none;
+}
+
+
+.main-content blockquote p{
+    font-style: italic;
+    color: rgb(141, 141, 141);
+    border-left: 1px solid rgb(68, 68, 212);
+    border-width: 4px;
+    padding: 5px;
+}
+
+#user-profile .address input{
+    display: block;
+    background-color: rgb(250, 211, 140);
+    outline: none;
+    border: 2px solid orange;
+}
+
+.main-menu>ul>li{
+    background-color: rgb(54, 119, 230);
+    padding: 10px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.main-menu>ul>li ul li {
+    background-color: rgb(205, 228, 251);
+    color: black;
+}
+
+.data-table tr>th{
+    color: white;
+    background-color: black;
+}
+
+header .toolbar>button{
+    padding: 7px;
+    background-color: rgb(24, 150, 1);
+    color: white;
+    width: 80px;
+}
+
+.sidebar-widget>h3 {
+    font-style: italic;
+}
+
+
+.n9, .n10, .n11, .n12 {
+    border: 2px dashed rgb(133, 133, 133);
+    padding: 10px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    margin-bottom: 20px; 
+}
+
+.news-item{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.news-item + .news-item{
+    margin-top: 20px;
+}
+
+.field-email + span{
+    font-size: 12px;
+    color: red;
+    display: block;
+}
+
+.toggle-details+p{
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(255, 209, 94);
+    border-left: 4px solid orange;
+}
+
+
+.toggle-details~p ~p{
+    padding: 10px;
+    background-color: rgb(177, 225, 253);
+    border-left: 4px solid blue;
+}
+
+
+.highlighted {
+    padding: 10px;
+    background-color: rgb(166, 226, 179);
+    border: 1px solid green;
+}
+
+.highlighted +p{
+    padding: 10px;
+    background-color: rgb(233, 205, 153);
+    border: 1px solid orange;
+}
+
+
+.n13, .n14, .n15, .n16 {
+    border: 2px dashed rgb(133, 133, 133);
+    padding: 10px;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0,0.3);
+    margin-bottom: 20px; 
+}
+
+
+.n13 a{
+    border-left: 1px solid black;
+    padding: 3px;
+}
+
+.n13 a[target="_blank"]::after{
+    content: '↗️';
+}
+
+
+.n14 input[required]{
+    background-color: rgb(240, 197, 197);
+    border: 1px solid red;
+}
+
+.n15 img{
+    width: 60px;
+    color: white;
+    background-color: red;
+}
+
+.n15 img[alt="logo"]{
+    background-color: gray;
+}
+
+
+.n16 a[href$=".pdf"]{
+    color: red;
+}
+
+.n16 a[href^=".doc"]{
+    color: green;
+}

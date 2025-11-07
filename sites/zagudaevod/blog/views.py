@@ -16,6 +16,15 @@ def practice_6(request):
 def practice_7(request):
     return render(request, 'blog/Praktikum7.html', {'title': 'lists'})
 
+def practice_7_1(request):
+    return render(request, 'blog/Praktikum7.1.html', {'title': 'lists'}) 
+
+def practice_7_2(request):
+    return render(request, 'blog/Praktikum9.html', {'title': 'lists'}) 
+
+def practice_8(request):
+    return render(request, 'blog/Praktikum_8.html', {'title': 'lists'})    
+
 
 
 

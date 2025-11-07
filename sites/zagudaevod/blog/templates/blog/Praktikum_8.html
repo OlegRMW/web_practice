@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style8.css' %}">
+    <style>
+        @import url("{% static 'css/style8.css' %}");
+    </style>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div>
+        <div>
+            <span>Логин:</span>
+        </div>
+        <input type="text">
+        <div>
+            <span>Пароль:</span>
+        </div>
+        <input type="password">
+        <div>
+            <input type="checkbox"><span>Запомнить</span>
+        </div>
+        <div>
+            <button>Вход</button>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+
+    <div>
+        <div class="t2">
+            <input type="text" class="t21"><span>Введите имя</span>
+        </div>
+        <div class="t2">
+            <input type="email" class="t21"><span>Почта</span>
+        </div>
+    </div>
+    <textarea name="#" id="#"></textarea>
+    <div class="t2">
+        <button>Отправить комментарий</button>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+        <select name="#" id="">
+            <option value="">АС ЭТРАН</option>
+            <option value="">ЕАСАПР</option>
+            <option value="">АСУФР</option>
+        </select>
+        <select name="" id="">
+            <option value="">ЕАСД</option>
+            <option value="">ЕАСАПР</option>
+            <option value="">АСУМР</option>
+            <option value="">АСУСТ</option>
+        </select>
+
+    <br>
+    <hr>
+    <br>
+
+    <div>
+        <div>
+            <span>Тип ПО:</span>
+        </div>
+        <div>
+            <input type="radio"><span>АС</span>
+        </div>
+        <div>
+            <input type="radio"><span>АРМ</span>
+        </div>
+        <div>
+            <span>Прикрепить файл</span>
+        </div>
+        <div>
+            <button>Выберите файл</button><span>Файл не выбран</span>
+        </div>
+        <div>
+            <input type="checkbox"><span>АСУ ТО</span>
+        </div>
+        <div>
+             <input type="checkbox"><span>АРМ ППД</span>
+        </div>
+        <div>
+             <input type="checkbox"><span>АС СПФ</span>
+        </div>
+        <div>
+             <input type="checkbox"><span>АСОВ</span>
+        </div>
+        <div>
+            <button>ОК</button>
+            <button>Сбросить</button>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <div class="t15">
+        <div class="text15">О системе:</div>
+        <div>
+            <input type="radio"><span>АС</span>
+        </div>
+        <div>
+            <input type="radio"><span>АРМ</span>
+        </div>
+        <div class="t51">
+            <input type="text" class="t51"><span>Краткое наименование</span>
+        </div>
+        <div class="t51">
+            <input type="text" class="t51"><span>Категория</span>
+        </div>
+        <div class="t51">
+            <input type="text" class="t51"><span>Заказчик</span>
+        </div>
+        <div class="t51">
+            <input type="text" class="t51"><span>Разработчик</span>
+        </div>
+        <div class="but15">
+            <button>Сохранить</button>
+        </div>
+    </div>
+    <div class="t25">
+        <div class="text25">Работа со временем</div>
+        <div>
+            <input type="checkbox"><span>создание пунктуальности (никогда не будете никуда опаздывать)</span>
+        </div>
+        <div>
+            <input type="checkbox"><span>излечение от пункутальности (никогда не будете торопиться)</span>
+        </div>
+        <div>
+            <input type="checkbox"><span>изменение восприятия времени и часов</span>
+        </div>
+        <div class="but25">
+            <button>Отправить</button>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="t6">
+        <h3>Разработка сайтов</h3>
+        <div class="t16">Тип сайта:</div>
+        <div class="b16">
+            <select name="" id="select16">
+                <option value="">Интернет магазин + Форум</option>
+            </select>
+        </div>
+        <div class="t16">Уровень специалиста:</div>
+        <div class="b16">
+            <input type="radio" name="elem"><span class="sp16">Junior</span>
+            <input type="radio" name="elem"><span class="sp16">Middle</span>
+            <input type="radio" name="elem"><span class="sp16">Senior</span>
+        </div>
+        <div class="t16">Дополнительные услуги:</div>
+        <div>
+            <input type="checkbox"><span>Поисковая оптимизация</span>
+        </div>
+        <div class="b16">
+            <input type="checkbox"><span>Постраничная оптимизация</span>
+        </div>
+        <div class="t16">Дата и время встречи с разработчиком:</div>
+        <div class="b16 date16">
+            <input type="date">
+        </div>
+
+        <div class="content16">
+            <div class="contact-inf16">Контактная информация</div>
+            <div class="t16">Ваше имя:</div>
+            <div class="text16">
+                <input type="text" placeholder="введите ваше имя">
+            </div>
+            <div class="t16">Ваш телефон:</div>
+            <div class="tel16">
+                <input type="tel" placeholder="например, +7 800 123-45-67">
+            </div>
+        </div>
+        <button class="but16">Записаться</button>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="content17">
+        <div class="logo17">Регистрация</div>
+        <div class="flex17">
+            <input type="radio" name="elem1"><span> Физ.лицо</span>
+            <input type="radio" name="elem1"><span> Компания</span>
+        </div>
+        <div class="flex27">
+            <div class="inp17">
+                <input type="text" placeholder="Почта">
+            </div>
+            <div class="inp27">
+                <input type="text" placeholder="Имя">
+            </div>
+            <div class="inp37">
+                <input type="text" placeholder="Пароль">
+            </div>
+        </div>
+        <div class="flex37">
+            <input type="radio" name="elem2"><span> М</span>
+            <input type="radio" name="elem2"><span> Ж</span>
+        </div>
+        <div class="text17">Отправляя, вы соглашаетесь с правилами на</div>
+        <div class="text17">djungo.fun.</div>
+        <div class="but17">
+            <button>Отправить</button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <div class="content18">
+        <div class="zagol18">Форма опроса</div>
+        <div class="osn18">
+            <div class="bliz1">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Возраст">
+            </div>
+            <div class="bliz1">
+                <input type="text" placeholder="Почта">
+                <input type="text" placeholder="Телефон">
+            </div>
+            <div class="t18">Оцените сайт</div>
+            <div class="checkboxes18">
+                <div class="chbx18"><input type="radio" name="elem3"><span>Суперотлично</span></div>
+                <div class="chbx18"><input type="radio" name="elem3"><span>Отлично</span></div>
+                <div class="chbx18"><input type="radio" name="elem3"><span>Хорошо</span></div>
+                <div class="chbx18"><input type="radio" name="elem3"><span>Удовлетворительно</span></div>
+                <div class="chbx18"><input type="radio" name="elem3"><span>Неудовлетворительно</span></div>
+            </div>
+            <div class="t28">Пожалуйста, оставьте комментарий к вашему рейтингу</div>
+            <div class="textarea18"><textarea id=""></textarea></div>
+            <div class="but18"><button>Отправить оценку</button></div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="content19">
+        <div class="wrap">
+            <div class="header">
+                <div class="t19">K-Means Кластеризация</div>
+                <div class="t29">Демонстрационная панель управления кластерными диаграммами</div>
+            </div>
+    
+            <div class="main-content">
+                <div class="left">
+                    <div class="t39">Настройки кластеризации</div>
+                    <div class="t49">Количество точек данных:</div>
+                    <div class="inp19">
+                        <input type="text">
+                    </div>
+                    <div class="t49">Количество кластеров (К):</div>
+                    <div class="inp19">
+                        <input type="text">
+                    </div>
+                    <div class="t49">Максимальное количество итераций:</div>
+                    <div class="inp19 inpisk">
+                        <input type="text">
+                    </div>
+    
+                    <div class="t59">Параметры данных</div>
+                    <div class="t49">Диапазон значений по оси Х:</div>
+                    <div>
+                        <select id="n1">
+                            <option value="">0-20</option>
+                        </select>
+                    </div>
+                    <div class="t49">Диапазон значений по оси Y:</div>
+                    <div>
+                        <select id="n2">
+                            <option value="">0-20</option>
+                        </select>
+                    </div>
+                    <div class="t49">Алгоритм инициализации центройдов</div>
+                    <div class="kmeans">
+                        <select id="n3">
+                            <option value="">K-means++</option>
+                        </select>
+                    </div>
+                    <div class="buttons">
+                        <div class="but19"><button>Применить настройки</button></div>
+                        <div class="but29"><button>Сбросить значения</button></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="t39">Визуализации кластеров</div>
+                    <div class="img19"><img src="{% static 'blog/img/kmeans.jpg' %}" alt="#"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

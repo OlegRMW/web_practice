@@ -1,0 +1,143 @@
+.td1 {
+    background-color: red;
+}
+
+.td2 {
+    background-color: green;
+}
+
+.td3 {
+    background-color: blue;
+}
+
+.td4 {
+    background-color: yellow;
+}
+
+.task2-main {
+    width: 730px;
+    height: 100px;
+    margin-bottom: 120px;
+}
+
+.task2-b1 {
+    background-color: brown;
+    height: 45%;
+    color: black;
+    padding: 10px;
+}
+
+.task2-b2 {
+    display: inline-block;
+    background-color: rgb(0, 127, 136);
+    width: 25%;
+    color: white;
+    height: 27.5%;
+    padding: 10px;
+}
+
+.task2-b3 {
+    display: inline-block;
+    background-color:rgba(240, 248, 255, 0.729);
+    height: 27.5%;
+    padding: 10px;
+}
+
+.task2-b4 {
+    background-color: black;
+    color: white;
+    height: 27.5%;
+    padding: 10px;
+}
+
+
+
+
+.task3-main {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 120px;
+}
+
+.task3-b1 {
+    background-color: brown;
+    height: 45%;
+    color: black;
+    padding: 10px;
+}
+
+.task3-b2 {
+    display: inline-block;
+    background-color: rgb(0, 127, 136);
+    width: 30%;
+    color: white;
+    height: 27.5%;
+    padding: 10px;
+}
+
+.task3-b3 {
+    display: inline-block;
+    background-color:rgba(240, 248, 255, 0.729);
+    height: 27.5%;
+    padding: 10px;
+}
+
+.task3-b4 {
+    background-color: black;
+    color: white;
+    height: 27.5%;
+    padding: 10px;
+}
+
+
+
+.grid-main {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: 25px 135px;
+
+    column-gap: 7px;
+    row-gap: 2px;
+}
+
+.grid-item-1 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(122, 85, 15);
+    color: white;
+    font-weight: bold;
+}
+
+.grid-item-2 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(1, 92, 57);
+    color: white;
+    font-weight: bold;
+}
+
+.grid-item-3 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(0, 86, 126);
+    color: white;
+    font-weight: bold;
+}
+
+.grid-item-4 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(247, 216, 186);
+}
+
+.grid-item-5 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(142, 176, 142);
+}
+
+.grid-item-6 {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(124, 180, 192);
+}

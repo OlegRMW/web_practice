@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style99.css' %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" width="60%">
+        <tr>
+            <td colspan="2" align="center" class="td1">шапка сайта (логотип, слоган, телефон)</td>
+        </tr>
+        <tr>
+            <td width="25%" align="center" class="td2">навигация</td>
+            <td align="center" class="td3">заголовок</td>
+        </tr>
+        <tr>
+            <td>
+                <ul class="ul1">
+                    <li><a href="#">Ссылка 1</a></li>
+                    <li><a href="#">Ссылка 2</a></li>
+                    <li><a href="#">Ссылка 3</a></li>
+                </ul>
+            </td>
+            <td>контент</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="td4">Низ сайта (баннеры, счетчики, информация)</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="task2-main">
+        <div class="task2-b1">Верхняя панель</div>
+        <div class="task2-b2">меню</div>
+        <div class="task2-b3">контент</div>
+        <div class="task2-b4">нижняя панель</div>
+    </div>
+
+    <div class="task3-main">
+        <div class="task3-b1">Верхняя панель</div>
+        <div class="task3-b2">меню</div>
+        <div class="task3-b3">контент</div>
+        <div class="task3-b4">нижняя панель</div>
+    </div>
+
+    <div class="grid-main">
+        <div class="grid-item-1">Рецепты Django ORM</div>
+        <div class="grid-item-2">SQLAlchemy на русском</div>
+        <div class="grid-item-3">Django Crispy Forms</div>
+        <div class="grid-item-4">Рецепты Django ORM,
+            это книга о работе с моделями,
+            Django ORM и Django.
+            Django ORM является.
+            одним из ключевых столпов Django.</div>
+
+        <div class="grid-item-5">SQLAlchemy - это набор
+            инструментов,
+            Python SQL и Object Relational
+            Mapper,
+            который дает разработчикам
+            приложениий гибкость SQL.</div>
+        
+        <div class="grid-item-6">Лучший способ получить
+            Django DRY формы
+            Создавайте программные макеты,
+            многократного использования
+            из компонентов, имея полный
+            контроль.</div>
+    </div>
+</body>
+</html>

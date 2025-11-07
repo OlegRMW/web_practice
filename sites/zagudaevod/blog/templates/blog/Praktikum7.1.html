@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_7.1.css' %}">
+    <style>
+        @import url("{% static 'css/style8.css' %}");
+    </style>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="logo"></div>
+        <div class="links">
+            <a href="#">Главная</a>
+            <a href="#">О нас</a>
+            <a href="#">Услуги</a>
+            <a href="#">Контакты</a>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <ul>
+                <li class="name">Товар 1</li>
+                <li>Описание товара</li>
+                <li class="name">1000 руб.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul>
+                <li class="name">Товар 2</li>
+                <li>Описание товара</li>
+                <li class="name">1500 руб.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul>
+                <li class="name">Товар 3</li>
+                <li>Описание товара</li>
+                <li class="name">800 руб.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <ul>
+                <li class="name">Товар 4</li>
+                <li>Описание товара</li>
+                <li class="name">2000 руб.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="grid-main">
+        <div class="item-1">
+            <div class="my-site"><h1>Мой сайт</h1></div>
+            <div class="menu-2">
+                <a href="#">Главная</a>
+                <a href="#">О нас</a>
+                <a href="#">Услуги</a>
+                <a href="#" class="last-a">Контакты</a>
+            </div>
+        </div>
+        <div class="item-2">
+            <div><h2>Добро пожаловать!</h2></div>
+            <div class="pcontent"><p>Основной контент страницы...</p></div>
+            <div class="menu2">
+                <div class="ficha">
+                    <p class="f">Фича 1</p>
+                    <p class="op">Описание особенности</p>
+                </div>
+                <div class="ficha">
+                    <p class="f">Фича 2</p>
+                    <p class="op">Описание особенности</p>
+                </div>
+                <div class="ficha">
+                    <p class="f">Фича 3</p>
+                    <p class="op">Описание особенности</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-3">
+            <div class="sidebar"><h2>Сайдбар</h2></div>
+            <div class="dop"><p>Дополнительная информация</p></div>
+            <div class="list1">
+                <ul>
+                    <li>Пункт 1</li>
+                    <li>Пункт 2</li>
+                    <li>Пункт 3</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item-4"><p>© 2024 Мой сайт. Все права защищены.</p></div>
+    </div>
+</body>
+</html>
