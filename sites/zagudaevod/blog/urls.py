@@ -10,6 +10,6 @@ urlpatterns = {
     path('blog/practice_6', practice_6),
     path('blog/practice_7', practice_7),
     path('blog/practice_7_1', practice_7_1),
-        path('blog/practice_7_2', practice_7_2),
+    path('blog/practice_7_2', practice_7_2),
     path('blog/practice_8', practice_8),
 }
