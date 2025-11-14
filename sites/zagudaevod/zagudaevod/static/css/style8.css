@@ -399,7 +399,7 @@
     font-weight: bold;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 .right {
@@ -480,7 +480,8 @@
     border: none;
 }
 
-.img19 img{
-    width: 800px;
-    height: 670px;
+.img19 img {
+  max-width: 100%;  
+  height: auto;     
+  display: block;   
 }

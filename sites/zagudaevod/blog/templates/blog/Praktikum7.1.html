@@ -4,22 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style_7.1.css' %}">
-    <style>
-        @import url("{% static 'css/style8.css' %}");
-    </style>
+    <link rel="stylesheet" href="{% static 'css/style._7.1.css' %}">
     <title>{{ title }}</title>
 </head>
 <body>
-    <div class="menu">
-        <div class="logo"></div>
-        <div class="links">
-            <a href="#">Главная</a>
-            <a href="#">О нас</a>
-            <a href="#">Услуги</a>
-            <a href="#">Контакты</a>
+    <nav class="nav">
+        <div class="logo">Логотип</div>
+        
+        <input type="checkbox" id="nav-toggle">
+        
+        <label for="nav-toggle" class="nav-toggle">☰</label>
+        
+        <div class="nav-items">
+            <a href="#" class="nav-item">Главная</a>
+            <a href="#" class="nav-item">О нас</a>
+            <a href="#" class="nav-item">Услуги</a>
+            <a href="#" class="nav-item">Контакты</a>
         </div>
-    </div>
+    </nav>
 
     <div class="cards">
         <div class="card">

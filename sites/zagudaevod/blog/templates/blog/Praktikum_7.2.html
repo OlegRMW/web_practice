@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_7.2.css' %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="n1">
+        <article class="post">
+            <h3>Статья о веб-разработке</h3>
+            <p>В этой статье есть списки</p>
+            <ul>
+                <li>Пункт списка 1</li>
+            </ul>
+            <ul>
+                <li>Пункт списка 2</li>
+            </ul>
+        </article>
+        <ul>
+            <li>Этот список ВНЕ статьи - не стилизован</li>
+        </ul>
+    </div>
+
+    <div class="n2">
+        <footer>
+            <div class="legal-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия использования</a>
+            </div>
+            <a href="#">Обычная ссылка в подвале</a>
+        </footer>
+    </div>
+
+    <div class="n3">
+        <div class="main-content">
+            <blockquote>
+                <p>Этот абзац в цитате - стилизован</p>
+                <div>А этот div в цитате - не стилизован</div>
+            </blockquote>
+            <p>Обычный абзац вне цитаты</p>
+        </div>
+        <blockquote>
+            <p>Цитата ВНЕ основного контента - не стилизована</p>
+        </blockquote>
+    </div>
+
+    <div class="n4">
+        <form action="#" id="user-profile">
+            <input type="text" placeholder="Общее поле формы">
+            <div class="address">
+                <input type="text" placeholder="Улица">
+                <input type="text" placeholder="Квартира">
+            </div>
+            <input type="text" placeholder="Адрес ВНЕ формы - не сти.">
+        </form>
+    </div>
+
+    <div class="n5">
+        <nav class="main-menu">
+            <ul>
+                <li>Главная</li>
+                <li>
+                    О нас
+                    <ul>
+                        <li>История</li>
+                        <li>Команда</li>
+                    </ul>
+                </li>
+                <li>Контакты</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="n6">
+        <table class="data-table" border="1" cellspacing="0">
+            <tr>
+                <th>Заголовок 1</th>
+                <th>Заголовок 2</th>
+            </tr>
+            <tr>
+                <td>Данные 1</td>
+                <td>Данные 2</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="n7">
+        <header>
+            <div class="toolbar">
+                <button>Сохранить</button>
+                <button>Отмена</button>
+            </div>
+            <button>Это кнопка ВНУТРИ контейнера - не стилизована</button>
+        </header>
+    </div>
+
+    <div class="n8">
+        <div class="sidebar-widget">
+            <h3>Заголовок виджета - стилизован</h3>
+        </div>
+        <h3>Заголовок внутри контента - не стилизован</h3>
+        <p>Содержимое виджета...</p>
+    </div>
+
+    <div class="n9">
+        <p class="news-item">Новость 1 (без отступа сверху)</p>
+        <p class="news-item">Новость 2 (имеет отступ сверху)</p>
+        <p class="news-item">Новость 3 (имеет отступ сверху)</p>
+    </div>
+
+    <div class="n10">
+        <form action="#">
+            <input type="email" class="field-email" placeholder="Введите email">
+            <span>Это поле обязательно для заполнения</span>
+            <p>Дргой контент</p>
+            <span>Этот span не следует сразу после field-email</span>
+        </form>
+    </div>
+
+    <div class="n11">
+        <button class="toggle-details">Кнопка .toggle-details</button>
+        <p>Параграф 1</p>
+        <p>Параграф 2</p>
+        <div>Разделитель</div>
+        <p>Параграф 3</p>
+        <div>Ещё один элемент</div>
+        <p>Параграф 4</p>
+    </div>
+
+    <div class="n12">
+        <p>Обычный коммент 1</p>
+        <p class="highlighted">Выделенный коммент автора</p>
+        <p>Следующий коммент после выделенного - стилизован</p>
+        <p>Обычный коммент 4</p>
+    </div>
+
+
+    <div class="n13">
+        <a href="#">Внутренняя ссылка</a>
+        <a href="#" target="_blank">Внешняя ссылка</a>
+        <a href="#">Ещё внутренняя</a>
+    </div>
+
+    <div class="n14">
+        <input type="text" placeholder="Необязательно поле">
+        <input type="text" placeholder="Обязательное поле" required>
+        <input type="text" placeholder="Ещё обязательное поле" required>
+    </div>
+
+    <div class="n15">
+        <img src="#" alt="logo">
+        <img src="#" alt="Other logo">
+    </div>
+
+    <div class="n16">
+        <a href=".pdf">Отчёт PDF</a>
+        <a href=".doc">Договор Word</a>
+        <a href="#">Таблица Excel</a>
+        <a href=".doc">Инструкция DOC</a>
+    </div>
+</body>
+</html>
+
