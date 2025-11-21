@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_10.css' %}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <div class="tasks">
+        <div class="task1 task">
+            <h2>Задача 1: Калькулятор</h2>
+            <p>Создайте калькулятор, который складывает два числа</p>
+            <div class="flex1">
+                <div>
+                    <input type="text" placeholder="Введите число" class="input11">
+                </div>
+                <div>
+                    <input type="text" placeholder="Введите число" class="input12">
+                </div>
+                <div class="but11">
+                    <button>Вычислить сумму</button>
+                </div>
+            </div>
+        </div>   
+
+        <div class="task2 task">
+            <h2>Задача 2: Счетчик с глобальной и локальной переменными</h2>
+            <div class="flex21">
+                <span>Глобальный счетчик:</span>
+                <span class="numb2">0</span>
+            </div>
+            <div class="flex22">
+                <button class="but1">Увеличьте глобальный счетчик</button>
+                <button class="but2">Увеличить локальный счётчик</button>
+            </div>
+            <div class="new-div2">
+                <div class="div21">
+                    <span>Локальный счетчик:</span>
+                    <span class="numb3">0</span>
+                    <span class="local-info">(всегда 1, т.к. создается заново)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="task3 task">
+            <h2>Задача 3: Проверка совершеннолетия</h2>
+            <div class="flex31">
+                <div>
+                    <input type="text" placeholder="Введите возраст" class="input3">
+                </div>
+                <div class="but31">
+                    <button>Проверить</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="task4 task">
+            <h2>Задача 4: Таблица умножения (циклы)</h2>
+            <div class="flex41">
+                <div>
+                    <input type="text" placeholder="Введите число" class="input4">
+                </div>
+                <div class="but41">
+                    <button>Сгенерировать таблицу</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="task5 task">
+            <h2>Задача 5: Список задач (массивы и циклы)</h2>
+            <div class="flex51">
+                <div>
+                    <input type="text" placeholder="Новая задача" class="input5">
+                </div>
+                <div class="but51">
+                    <button>Добавить задачу</button>
+                </div>
+                <div class="but52">
+                    <button>Показать все задачи</button>
+                </div>
+                <div class="but53">
+                    <button>Очистить список</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="task6 task">
+            <h2>Задача 6: Игра "Угадай число"</h2>
+            <p>Компьютер загадал число от 1 до 5. Попробуйте угадать!</p>
+            <div class="flex61">
+                <div>
+                    <input type="text" placeholder="Ваше число" class="input6">
+                </div>
+                <div class="but61">
+                    <button>Проверить</button>
+                </div>
+                <div class="but62">
+                    <button>Новая игра</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="task7 task">
+            <h2>Задача 7: Фильтр чисел</h2>
+            <p>Исходный массив [15, 3, 45, 8, 12, 7, 22, 9, 30, 1]</p>
+            <div class="flex71">
+                <div class="but71">
+                    <button>Показать чётные числа</button>
+                </div>
+                 <div class="but72">
+                    <button>Показать числа больше 10</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="task8 task">
+            <h2>Задача 8: Таймер (setInterval)</h2>
+            <div class="flex81">
+                <span>Время:</span><span class="time">0</span><span>секунд</span>
+            </div>
+            <div class="flex82">
+                <div class="but81">
+                    <button>Старт</button>
+                </div>
+                <div class="but82">
+                    <button>Пауза</button>
+                </div>
+                <div class="but83">
+                    <button>Сброс</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/script_1.js' %}"></script>
+</body>
+</html>
