@@ -1,0 +1,259 @@
+.tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    border: 1px, solid rgba(0, 0, 0, 0.181);
+    box-shadow: 2px 1px 4px 2px rgba(0, 0, 0, 0.417);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.flex1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.flex1 input{
+    padding: 3px;
+    outline: none;
+}
+
+.but11 button{
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.new-div{
+    padding: 4px;
+    border-left: 5px solid green;
+    background-color: rgb(211, 255, 211);
+    margin-top: 10px;
+}
+
+.but1, .but2{
+    height: 25px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.new-div2{
+    padding: 4px;
+    border-left: 5px solid green;
+    background-color: rgb(211, 255, 211);
+    margin-top: 10px;
+}
+
+.flex31 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.flex31 input{
+    padding: 3px;
+    outline: none;
+}
+
+.but31 button{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.new-div31{
+    padding: 4px;
+    border-left: 5px solid green;
+    background-color: rgb(211, 255, 211);
+    margin-top: 10px;
+}
+
+.new-div32{
+    padding: 4px;
+    border-left: 5px solid rgb(198, 57, 47);
+    background-color: rgb(255, 211, 211);
+    margin-top: 10px;
+}
+
+.flex41{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.flex41 input{
+    padding: 3px;
+    outline: none;
+}
+
+.but41 button{
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.new-div4{
+    padding: 4px;
+    border-left: 5px solid green;
+    background-color: rgb(211, 255, 211);
+    margin-top: 10px;
+}
+
+.flex51{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.flex51 input{
+    padding: 3px;
+    outline: none;
+}
+
+.but51 button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.but52 button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.but53 button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.flex61{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.flex61 input{
+    padding: 3px;
+    outline: none;
+}
+
+.but61 button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.but62 button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.new-div-61{
+    padding: 4px;
+    border-left: 5px solid green;
+    background-color: rgb(211, 255, 211);
+    margin-top: 10px;
+}
+
+.new-div-62{
+    padding: 4px;
+    border-left: 5px solid rgb(198, 57, 47);
+    background-color: rgb(255, 211, 211);
+    margin-top: 10px;
+}
+
+.flex71{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.but71 button{
+    width: 140px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.but72 button{
+    width: 140px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+.new-div71, .new-div72{
+    padding: 4px;
+    border-left: 5px solid green;
+    background-color: rgb(211, 255, 211);
+    margin-top: 10px;
+}
+
+.flex82{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top:13px;
+}
+
+.flex81{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.but83 button{
+    width: 80px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+
+.but81 button{
+    width: 80px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
+
+
+.but82 button{
+    width: 80px;
+    height: 33px;
+    font-size: 12px;
+    background-color: rgb(30, 199, 30);
+    color: white;
+}
