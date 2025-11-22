@@ -11,7 +11,7 @@
     <title>{{ title }}</title>
 </head>
 <body>
-    <div>
+    <form method="post" action="#">
         <div>
             <span>Логин:</span>
         </div>
@@ -26,26 +26,25 @@
         <div>
             <button>Вход</button>
         </div>
-    </div>
+    </form>
 
     <br>
     <hr>
     <br>
 
 
-    <div>
+    <form method="post" action="#">
         <div class="t2">
             <input type="text" class="t21"><span>Введите имя</span>
         </div>
         <div class="t2">
             <input type="email" class="t21"><span>Почта</span>
         </div>
-    </div>
-    <textarea name="#" id="#"></textarea>
-    <div class="t2">
-        <button>Отправить комментарий</button>
-    </div>
-
+        <textarea name="#" id="#"></textarea>
+        <div class="t2">
+            <button>Отправить комментарий</button>
+        </div>
+    </form>
     <br>
     <hr>
     <br>
@@ -66,7 +65,7 @@
     <hr>
     <br>
 
-    <div>
+    <form method="post" action="#">
         <div>
             <span>Тип ПО:</span>
         </div>
@@ -98,12 +97,12 @@
             <button>ОК</button>
             <button>Сбросить</button>
         </div>
-    </div>
+    </form>
     <br>
     <hr>
     <br>
 
-    <div class="t15">
+    <form action="#" method="post" class="t15">
         <div class="text15">О системе:</div>
         <div>
             <input type="radio"><span>АС</span>
@@ -124,10 +123,10 @@
             <input type="text" class="t51"><span>Разработчик</span>
         </div>
         <div class="but15">
-            <button>Сохранить</button>
+            <input type="submit" value="Сохранить">
         </div>
-    </div>
-    <div class="t25">
+    </form>
+    <form action='#' method="post" class="t25">
         <div class="text25">Работа со временем</div>
         <div>
             <input type="checkbox"><span>создание пунктуальности (никогда не будете никуда опаздывать)</span>
@@ -139,15 +138,15 @@
             <input type="checkbox"><span>изменение восприятия времени и часов</span>
         </div>
         <div class="but25">
-            <button>Отправить</button>
+            <input type="submit">
         </div>
-    </div>
+    </form>
 
     <br>
     <hr>
     <br>
 
-    <div class="t6">
+    <form action="#" method="post" class="t6">
         <h3>Разработка сайтов</h3>
         <div class="t16">Тип сайта:</div>
         <div class="b16">
@@ -184,14 +183,15 @@
                 <input type="tel" placeholder="например, +7 800 123-45-67">
             </div>
         </div>
-        <button class="but16">Записаться</button>
-    </div>
+        <input type="submit" class="but16" value="Записаться">
+        <!-- <button class="but16">Записаться</button> -->
+    </form>
 
     <br>
     <hr>
     <br>
 
-    <div class="content17">
+    <form action="#" method="post" class="content17">
         <div class="logo17">Регистрация</div>
         <div class="flex17">
             <input type="radio" name="elem1"><span> Физ.лицо</span>
@@ -215,16 +215,16 @@
         <div class="text17">Отправляя, вы соглашаетесь с правилами на</div>
         <div class="text17">djungo.fun.</div>
         <div class="but17">
-            <button>Отправить</button>
+            <input type="submit" class="submit-button">
         </div>
-    </div>
+    </form>
 
     <br>
     <br>
     <hr>
     <br>
 
-    <div class="content18">
+    <form action='#' method="post" class="content18">
         <div class="zagol18">Форма опроса</div>
         <div class="osn18">
             <div class="bliz1">
@@ -247,14 +247,14 @@
             <div class="textarea18"><textarea id=""></textarea></div>
             <div class="but18"><button>Отправить оценку</button></div>
         </div>
-    </div>
+    </form>
 
     <br>
     <br>
     <br>
     <br>
 
-    <div class="content19">
+    <form action='#' method="post" class="content19">
         <div class="wrap">
             <div class="header">
                 <div class="t19">K-Means Кластеризация</div>
@@ -307,6 +307,6 @@
                 </div>
             </div>
         </div>
-    </div>щ
+    </form>
 </body>
 </html>
