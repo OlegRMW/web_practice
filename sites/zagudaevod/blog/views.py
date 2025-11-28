@@ -31,4 +31,6 @@ def practice_8(request):
 def practice_10(request):
     return render(request, 'blog/Praktikum10js.html', {'title': 'lists'})
 
+def get_category(request, slug):
+    return render(request, 'blog/category.html', {'title': 'lists'})
 
