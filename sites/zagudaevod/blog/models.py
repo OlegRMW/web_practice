@@ -8,6 +8,9 @@ class Category(models.Model):
     def __str__(self):
         return self.title
     
+    def get_aboslute_url(self):
+        return reverse('category', kwargs={"slug": self.slug})
+    
     class Meta:
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
@@ -41,6 +44,9 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return reverse('post', kwargs={"slug": self.slug})
+        
     class Meta:
         verbose_name = 'Статья'
         verbose_name_plural = 'Статьи'
