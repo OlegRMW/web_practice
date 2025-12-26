@@ -14,6 +14,8 @@ urlpatterns = [
     path('blog/practice_9', practice_9),
     path('blog/practice_8', practice_8),
     path('blog/practice_10', practice_10),
-    path('category/<str:slug>', get_category, name='category'),
-    path('post/<str:slug>/', get_post, name='post')
+    path('category/<str:slug>', PostsByCategory.as_view(), name='category'),
+    path('post/<str:slug>/', GetPost.as_view(), name='post'),
+    path('tag/<str:slug>/', PostsByTag.as_view(), name='tag'),
+    path('posts/add-news/', add_news, name='add_news')
 ]
